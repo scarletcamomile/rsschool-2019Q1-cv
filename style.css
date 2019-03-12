@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3vw;
+}
+
+.name-and-foto {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+  font-size: 2.3vw;
+}
+
+h2 {
+  font-size: 2vw;
+  overflow: hidden;
+  margin: 0.7vw 0;
+}
+
+h2:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid #46719b;
+  border-width: 1px 10px;
+}
+
+h2:after {
+  margin-right: -100%;
+}
+
+blockquote {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6vw;
+  border-left: 2px solid black;
+  padding-left: 2vw;
+}
